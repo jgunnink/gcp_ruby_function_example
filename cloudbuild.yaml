@@ -1,0 +1,11 @@
+steps:
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      - functions
+      - deploy
+      - getPrice
+      - --source=.
+      - --trigger-http
+      - --runtime=ruby26
+      - --region=australia-southeast1
+      - --allow-unauthenticated
