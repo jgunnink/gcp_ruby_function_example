@@ -1,5 +1,5 @@
 name: CI tooling
-"on": pull_request
+on: pull_request
 steps:
   - uses: actions/checkout@v2
   - uses: actions/setup-ruby@v1
