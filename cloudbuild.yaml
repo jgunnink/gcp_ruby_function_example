@@ -6,6 +6,8 @@ steps:
       - getPrice
       - --source=.
       - --trigger-http
+      - --no-gen2
+      - --docker-registry=artifact-registry
       - --runtime=ruby32
       - --entry-point=getPrice
       - --region=australia-southeast1
