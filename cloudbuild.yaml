@@ -6,6 +6,7 @@ steps:
       - getPrice
       - --source=.
       - --trigger-http
-      - --runtime=ruby26
+      - --runtime=ruby32
+      - --entry-point=getPrice
       - --region=australia-southeast1
       - --allow-unauthenticated
