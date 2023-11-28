@@ -6,6 +6,9 @@ steps:
       - getPrice
       - --source=.
       - --trigger-http
-      - --runtime=ruby26
+      - --no-gen2
+      - --docker-registry=artifact-registry
+      - --runtime=ruby32
+      - --entry-point=getPrice
       - --region=australia-southeast1
       - --allow-unauthenticated

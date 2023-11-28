@@ -16,7 +16,7 @@ class Test < Minitest::Test
       response = call_http("getPrice", request)
 
       assert_equal 200, response.status
-      assert_equal "Hi Sydney, the current BTC Price is: 37,036.3183", response.body.join
+      assert_equal "The current BTC Price is: 37,036.3183", response.body.join
     end
   end
 end

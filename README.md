@@ -5,5 +5,3 @@ continuous integration and continuous deployment using Github actions for testin
 deployments.
 
 See a problem or something need changing? Pull requests are welcome!
-
-Updated for USYD
